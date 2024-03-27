@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec 2</title>
+    <!-- <script src="js/homeWorkOnClass"></script> -->
+    <!-- <script src="js/splice.js" defer></script> -->
+    <!-- <script src="js/callBacks.js" defer></script> -->
+    <script src="js/utils.js" defer></script>
+    <script src="js/math-game.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="game-container">
+        <header class="game-title">
+            <h1> משחק ללימודי חשבון</h1>
+        </header>
+
+        <article class="targil">
+            <form class="excercise-form">
+                <button id="btn-check" type="button">בדוק</button>
+                <input type="number" id="input-result">
+                <p class="excercise" id="excercise"></p>
+            </form>
+        </article>
+
+        <form class="difficulty">
+            <label>
+                <input class="level" type="radio" name="level" value="1" checked>
+                Level 1
+            </label>
+            <label>
+                <input class="level" type="radio" name="level" value="2">
+                Level 2
+            </label>
+            <label>
+                <input class="level" type="radio" name="level" value="3">
+                Level 3
+            </label>
+        </form>
+
+    </main>
+
+    <section class="section">
+        <div class="divHeader">
+            <h2>תרגיל</h2>
+            <h2>תשובה נכונה</h2>
+            <h2>תשובה שענית</h2>
+            <h2>נקודות</h2>
+        </div>
+        <div class="ans" id="ans">
+        </div>
+    </section>
+</body>
+
+</html>

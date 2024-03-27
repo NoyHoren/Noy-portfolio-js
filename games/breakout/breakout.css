@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: #d8f9ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    background-color: black;
+    border: 5px solid blue;
+    /* border-top: 5px solid skyblue;
+    border-left: 5px solid skyblue;
+    border-right: 5px solid skyblue; */
+}
+
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btnStart {
+    margin: 10px 0;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #fff;
+    color: #fff;
+}

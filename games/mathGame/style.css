@@ -1,0 +1,144 @@
+:root {
+    --margin: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+
+    background-image: url("./WhatsApp\ Image\ 2024-03-18\ at\ 17.56.33.jpeg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container {
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px black;
+    min-height: 40%;
+    width: 60%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+#btn-check {
+    padding: 10px 20px;
+    background-color: #0e4c92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+#btn-check:hover {
+    background-color: #0056b3;/
+}
+
+.excercise {
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+
+.game-title {
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.7);
+    color: rgb(44, 96, 253);
+}
+
+.excercise-form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.section {
+    background-color: #fff;
+    width: 400px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+div#ans div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #cccccc;
+    margin-top: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 15pt;
+}
+
+div#ans div p {
+    flex: 1;
+    text-align: center;
+}
+
+div#ans {
+    display: flex;
+    justify-content: space-between;
+    color: green;
+    flex-wrap: wrap;
+}
+
+.divHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #ccc;
+    color: blue;
+}
+
+.divHeader h2 {
+    flex: 1;
+    text-align: center;
+}
+
+/* עיצוב עבור הטופס של רמת הקושי */
+.difficulty {
+    margin-top: 20px;
+}
+
+/* עיצוב עבור תוויות רמת הקושי */
+.difficulty label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+}
+
+.section {
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+    width: 650px;
+}
+
+/* אפקט פעיל עבור התוויות */
+.difficulty input[type="radio"]:checked+label::before {
+    transform: translateY(-50%) scale(1.1);
+    /* הגדלה קלה בעת בחירה */
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.1);
+    /* הוספת אפקט צל להדגשת הכפתור המסומן */
+}
